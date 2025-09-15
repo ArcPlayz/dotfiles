@@ -28,7 +28,7 @@ config.window_frame = {
 	inactive_titlebar_bg = '#222222',
 }
 
-config.default_prog = {'fish'}
+config.default_prog = {'bash', '-i'}
 
 config.color_scheme = 'Derp (terminal.sexy)'
 config.font = wezterm.font 'FiraCode Nerd Font'
