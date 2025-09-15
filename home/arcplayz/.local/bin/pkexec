@@ -1,4 +1,4 @@
-#!/usr/bin/xonsh
+#!/usr/bin/env xonsh
 from sys import argv
 
 exec = list(argv[1:])
