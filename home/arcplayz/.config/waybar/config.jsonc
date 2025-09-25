@@ -1,0 +1,48 @@
+[
+	{
+		"layer": "top",
+		"position": "top",
+		"modules-left": [
+			"pulseaudio",
+			"battery"
+		],
+		"modules-center": [
+			"tray"
+		],
+		"modules-right": [
+		    "clock"
+		],
+		"clock": {
+		    "format": "{:%H:%M:%S\n%a %d}",
+		    "interval": 1
+		},
+	    "pulseaudio": {
+	        "format": "{volume}% {icon} {format_source}",
+			"format-muted": "{volume}% 🔇 {format_source}",
+	        "format-bluetooth": "{volume}% {icon} {format_source}",
+	        "format-bluetooth-muted": "{volume}% 🔇 {format_source}",
+	        "format-source": " ",
+	        "format-source-muted": " ",
+	    },
+	    "battery": {
+	        "format": "{capacity}% {icon} ",
+			"format-icons": ["", "", "", "", ""],
+	        "format-charging": "{capacity}% 🗲 ",
+	        "format-full": " ",
+	        "format-plugged": " "
+	    }
+	},
+	{
+		"layer": "top",
+		"position": "bottom",
+		"modules-center": [
+			"wlr/taskbar"
+		],
+		"wlr/taskbar": {
+			"on-click": "minimize-raise",
+			"on-click-right": "close",
+			"format": "{icon} {title}",
+			"tooltip-format": "{app_id}"
+		}
+	}
+]

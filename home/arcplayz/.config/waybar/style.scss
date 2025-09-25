@@ -1,0 +1,14 @@
+#taskbar {
+	>button {
+		&.active {
+			background-color: rgba(255, 255, 255, 0.5)
+		}
+		&:not(.active):not(.minimized) {
+			background-color: rgba(255, 255, 255, 0.25)
+		}
+	}
+}
+
+#waybar {
+	background-color: rgba(0, 0, 0, 0.5)
+}

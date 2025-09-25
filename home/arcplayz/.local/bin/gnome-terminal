@@ -1,0 +1,2 @@
+#!/bin/bash
+wezterm start --always-new-process --cwd "$PWD" "$@"
