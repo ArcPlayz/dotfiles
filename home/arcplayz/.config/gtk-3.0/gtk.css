@@ -1,0 +1,23 @@
+.nemo-window {
+   background-color: alpha(@theme_base_color, 0.75);
+}
+.nemo-window-pane > notebook, .nemo-window-pane > notebook > stack > box > overlay > scrolledwindow, .nemo-window-pane > notebook > stack > box > overlay > scrolledwindow > treeview, .nemo-window-pane > notebook > stack > box > overlay > scrolledwindow > treeview > header > *, .nemo-window-pane > notebook > stack > box > overlay > scrolledwindow > treeview > *.view {
+	background-color: rgba(0, 0, 0, 0)
+}
+.engrampa-window {
+	background-color: alpha(@theme_base_color, 0.75);
+}
+.engrampa-window treeview {
+	background-color: rgba(0, 0, 0, 0)
+}
+* {
+	border-width: 0
+}
+
+.wcm {
+	background-color: alpha(@theme_base_color, 0.75);
+}
+
+.wcm .frame {
+	background-color: rgba(0, 0, 0, 0)
+}
