@@ -1,0 +1,5 @@
+[Default Applications]
+inode/directory=nemo.desktop
+text/plain=micro.desktop
+x-scheme-handler/magnet=org.qbittorrent.qBittorrent.desktop
+
