@@ -1,0 +1,30 @@
+/usr/local
+├── bin
+│   ├── easyeffects
+│   ├── fish
+│   ├── waybar
+│   └── wcm
+├── etc
+│   └── xdg
+├── games
+├── include
+│   └── spdlog
+├── lib
+│   ├── libspdlog.a
+│   └── pkgconfig
+├── man
+├── sbin
+├── share
+│   ├── applications
+│   ├── dbus-1
+│   ├── fonts
+│   ├── glib-2.0
+│   ├── help
+│   ├── icons
+│   ├── locale
+│   ├── man -> ../man
+│   ├── metainfo
+│   └── wcm
+└── src
+
+23 directories, 5 files

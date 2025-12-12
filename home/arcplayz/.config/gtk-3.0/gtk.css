@@ -1,0 +1,7 @@
+.nemo-window, .wcm {
+  background-color: alpha(@theme_base_color, 0.75)
+}
+
+.nemo-window notebook, .nemo-window treeview, .nemo-window scrolledwindow, .nemo-window treeview button, .wcm .frame {
+  background-color: rgba(0, 0, 0, 0)
+}
