@@ -1,0 +1,7 @@
+[Nemo Action]
+Name=_Unpack archive
+Comment=Unpack an archive
+Exec=<scripts/unpack.xsh %F>
+Selection=notnone
+Extensions=nodirs
+Terminal=true

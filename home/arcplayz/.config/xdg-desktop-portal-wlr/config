@@ -1,0 +1,5 @@
+[screencast]
+output_name=
+max_fps=165
+chooser_cmd=sh -c "wlr-randr --json | jq -r '.[].name' | fuzzel -d | xargs -I {} printf 'Monitor: %s' {}"
+chooser_type=simple

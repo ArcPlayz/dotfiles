@@ -1,0 +1,10 @@
+[Default Applications]
+text/plain=micro.desktop
+x-scheme-handler/magnet=org.qbittorrent.qBittorrent.desktop
+inode/directory=nemo.desktop
+x-scheme-handler/tg=userapp-AyuGram Desktop-IFXMI3.desktop
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-TU9MI3.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-AyuGram Desktop-IFXMI3.desktop;
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-TU9MI3.desktop;
