@@ -1,0 +1,9 @@
+@import url("/usr/share/themes/Graphite-Dark-compact/gtk-4.0/gtk.css");
+
+window#pwvucontrol {
+	background-color: alpha(@theme_base_color, 0.75)
+}
+
+window#pwvucontrol headerbar {
+	background-color: rgba(0, 0, 0, 0)
+}
