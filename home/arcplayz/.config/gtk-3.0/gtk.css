@@ -1,0 +1,19 @@
+window.nemo-window,
+window.engrampa-window,
+window.wcm {
+  background-color: alpha(@theme_base_color, 0.75)
+}
+
+window.nemo-window notebook,
+window.nemo-window treeview,
+window.nemo-window scrolledwindow,
+window.nemo-window treeview button,
+window.nemo-window .primary-toolbar,
+window.nemo-window menubar,
+window.wcm .frame,
+window.engrampa-window treeview,
+window.engrampa-window treeview button,
+window.engrampa-window menubar,
+window.engrampa-window toolbar {
+  background-color: rgba(0, 0, 0, 0)
+}

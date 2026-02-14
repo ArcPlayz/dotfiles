@@ -1,0 +1,33 @@
+/usr/local
+├── bin
+│   ├── easyeffects
+│   ├── fish
+│   ├── nimlangserver
+│   ├── pwvucontrol
+│   ├── waybar
+│   └── wcm
+├── etc
+│   └── xdg
+├── games
+├── include
+│   └── spdlog
+├── lib
+│   ├── libspdlog.a
+│   └── pkgconfig
+├── man
+├── sbin
+├── share
+│   ├── applications
+│   ├── dbus-1
+│   ├── fonts
+│   ├── glib-2.0
+│   ├── help
+│   ├── icons
+│   ├── locale
+│   ├── man -> ../man
+│   ├── metainfo
+│   ├── pwvucontrol
+│   └── wcm
+└── src
+
+24 directories, 7 files

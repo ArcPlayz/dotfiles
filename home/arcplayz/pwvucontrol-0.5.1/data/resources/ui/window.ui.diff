@@ -1,0 +1,8 @@
+@@ -4,6 +4,7 @@
+   <requires lib="gtk" version="4.4" />
+   <requires lib="Adw" version="1.0" />
+   <template class="PwvucontrolWindow" parent="AdwApplicationWindow">
++       <property name="name">pwvucontrol</property>
+     <property name="default-width">600</property>
+     <property name="default-height">300</property>
+     <property name="width-request">470</property>
