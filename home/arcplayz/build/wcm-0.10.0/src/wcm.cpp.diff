@@ -1,0 +1,8 @@
+@@ -1344,6 +1344,7 @@ WCM::WCM(Glib::RefPtr<Gtk::Application> app)
+         }
+ 
+         window    = std::make_unique<Gtk::ApplicationWindow>(app);
++        window->get_style_context()->add_class("wcm");
+         auto icon = Gdk::Pixbuf::create_from_file(find_icon("wcm.svg"));
+         window->set_icon(icon);
+         window->set_size_request(750, 550);

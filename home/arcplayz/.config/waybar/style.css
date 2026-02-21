@@ -1,0 +1,10 @@
+#taskbar > button.active {
+  background-color: alpha(@theme_text_color, 0.5)
+}
+#taskbar > button:not(.active):not(.minimized) {
+  background-color: alpha(@theme_text_color, 0.25)
+}
+
+#waybar {
+  background-color: alpha(@theme_base_color, 0.75)
+}
