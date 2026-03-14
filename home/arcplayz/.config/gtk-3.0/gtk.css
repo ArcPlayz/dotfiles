@@ -1,0 +1,24 @@
+window.nemo-window,
+window.engrampa-window,
+window.wcm {
+  background-color: alpha(@theme_base_color, 0.75)
+}
+
+window.nemo-window notebook,
+window.nemo-window treeview:not(:selected),
+window.nemo-window scrolledwindow,
+window.nemo-window treeview button,
+window.nemo-window .primary-toolbar,
+window.nemo-window menubar,
+window.wcm .frame,
+window.engrampa-window treeview:not(:selected),
+window.engrampa-window treeview button,
+window.engrampa-window menubar,
+window.engrampa-window toolbar {
+  background-color: rgba(0, 0, 0, 0)
+}
+
+window.nemo-window treeview:selected,
+window.engrampa-window treeview:selected {
+	background-color: alpha(@theme_selected_bg_color, 0.25)
+}
