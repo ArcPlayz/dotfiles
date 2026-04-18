@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+modprobe vfio-pci
+
+rmmod nvidia_uvm nvidia_drm nvidia_modeset nvidia
+echo 0000:01:00.1 > /sys/bus/pci/drivers/snd_hda_intel/unbind
+
+echo 0000:01:00.0 > /sys/bus/pci/drivers/vfio-pci/bind
+echo 0000:01:00.1 > /sys/bus/pci/drivers/vfio-pci/bind
