@@ -1,0 +1,26 @@
+{
+  "theme": "dark",
+  "editor": {
+    "use_tabs": true,
+    "completion_popup_auto_show": true
+  },
+  "lsp": {
+    "python": [
+      {
+        "command": "ty",
+        "enabled": true,
+        "args": [
+          "server"
+        ],
+        "auto_start": true,
+        "root_markers": [
+        ],
+        "process_limits": {
+          "max_memory_percent": 50,
+          "max_cpu_percent": 90,
+          "enabled": true
+        }
+      }
+    ]
+  }
+}
