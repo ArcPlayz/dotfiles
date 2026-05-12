@@ -1,0 +1,97 @@
+{
+  "theme": "dark",
+  "editor": {
+    "use_tabs": true,
+    "completion_popup_auto_show": true
+  },
+  "lsp": {
+    "c": [
+      {
+        "command": "clangd",
+        "enabled": true,
+        "auto_start": true,
+        "root_markers": [
+          "compile_commands.json"
+        ],
+        "process_limits": {
+          "enabled": false
+        }
+      }
+    ],
+	"cpp": [
+      {
+        "command": "clangd",
+        "enabled": true,
+        "auto_start": true,
+        "root_markers": [
+          "compile_commands.json"
+        ],
+        "process_limits": {
+          "enabled": false
+        }
+      }
+    ],
+	"nim": [
+      {
+        "command": "nimlangserver",
+        "enabled": true,
+        "auto_start": false,
+        "process_limits": {
+          "enabled": false
+        }
+      }
+    ],
+    "vala": [
+      {
+        "command": "vala-language-server",
+        "enabled": true,
+        "auto_start": false,
+        "process_limits": {
+          "enabled": false
+        }
+      }
+    ],
+    "rust": [
+      {
+        "command": "rust-analyzer",
+        "enabled": true,
+        "auto_start": true,
+        "root_markers": [
+          "Cargo.toml"
+        ],
+        "process_limits": {
+          "enabled": false
+        }
+      }
+    ],
+    "python": [
+      {
+        "command": "ty",
+        "enabled": true,
+        "args": [
+          "server"
+        ],
+        "auto_start": true,
+        "root_markers": [
+          "pyproject.toml"
+        ],
+        "process_limits": {
+          "enabled": false
+        }
+      }
+    ],
+    "kotlin": [
+      {
+        "command": "kotlin-lsp",
+        "enabled": true,
+        "auto_start": false,
+        "process_limits": {
+          "enabled": false
+        }
+      }
+    ]
+  },
+  "file_explorer": {
+    "show_hidden": true
+  }
+}

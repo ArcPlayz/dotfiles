@@ -1,0 +1,8 @@
+system:
+  gpu: card1
+  pulse_latency: true
+wine:
+  battleye: false
+  eac: false
+  fsr: false
+  version: cachyos-10.0-20260420-slr
