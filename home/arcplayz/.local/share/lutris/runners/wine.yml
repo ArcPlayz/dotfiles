@@ -1,0 +1,7 @@
+system:
+  gpu: card1
+wine:
+  battleye: false
+  eac: false
+  fsr: false
+  version: cachyos-10.0-20260420-slr

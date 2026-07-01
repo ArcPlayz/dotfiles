@@ -1,0 +1,32 @@
+{
+	"version": 2,
+	"theme": "dark",
+	"editor": {
+		"line_wrap": false,
+		"completion_popup_auto_show": true,
+		"use_tabs": true
+	},
+	"file_explorer": {
+		"show_hidden": true
+	},
+	"languages": {
+		"python": {
+			"extensions": [
+				"py",
+				"pyi",
+				"xsh"
+			],
+			"use_tabs": true
+		}
+	},
+	"lsp": {
+		"python": {
+			"enabled": true,
+			"auto_start": true,
+			"command": "ty",
+			"args": [
+				"server"
+			]
+		}
+	}
+}
