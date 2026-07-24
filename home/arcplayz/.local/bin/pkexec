@@ -1,0 +1,15 @@
+#!/usr/bin/env xonsh
+from sys import argv
+
+exec = list(argv[1:])
+args = []
+
+while exec[0] in ('--version', '--help', '--disable-internal-agent', '--keep-cwd', '--user'):
+	user = exec[0] == '--user'
+	
+	args.append(exec.pop(0))
+	
+	if user:
+		args.append(exec.pop(0))
+
+/usr/bin/pkexec @(args) @(exec if exec[0] != '/usr/bin/gparted' else ('env', 'HOME=' + $HOME, 'DISPLAY=' + $DISPLAY, '/usr/bin/gparted'))

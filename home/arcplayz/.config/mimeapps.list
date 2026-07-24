@@ -1,0 +1,6 @@
+[Default Applications]
+x-scheme-handler/magnet=org.qbittorrent.qBittorrent.desktop
+inode/directory=nemo.desktop
+text/plain=fresh.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
+x-scheme-handler/beeper=Beeper.desktop

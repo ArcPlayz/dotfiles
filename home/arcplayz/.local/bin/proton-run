@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+export PROTONPATH=~"/.var/app/com.valvesoftware.Steam/data/Steam/compatibilitytools.d/Proton-CachyOS Latest"
+
+export WINEPREFIX=~"/Prefixes/$1"
+
+export UMU_LOG=debug
+export WINEDEBUG=warn
+
+cd "$2"
+mangohud umu-run "$3" "${@:4}"

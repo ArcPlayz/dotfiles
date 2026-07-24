@@ -1,0 +1,6 @@
+:root {
+    --background-image: url('');
+    --font: 'system-ui';
+    --window-padding: 0;
+    --window-roundness: 0; 
+}
