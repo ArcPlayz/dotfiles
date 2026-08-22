@@ -1,0 +1,30 @@
+{
+    "theme": "builtin://terminal",
+    "lsp": {
+        "python": {
+            "command": "ty",
+            "enabled": true,
+            "args": ["server"],
+            "process_limits": {
+                "max_memory_percent": 50,
+                "max_cpu_percent": 90,
+                "enabled": true
+            }
+        }
+    },
+    "editor": {
+        "completion_popup_auto_show": true,
+        "line_wrap": false,
+        "indentation_guide": "all",
+        "rainbow_indentation": true,
+        "whitespace_spaces_trailing": true,
+        "whitespace_spaces_inner": true,
+        "whitespace_spaces_leading": true,
+        "indentation_guide_glyph": "⋮",
+        "enable_inlay_hints": false,
+        "use_terminal_bg": true
+    },
+    "version": 2,
+    "plugins": {
+    }
+}

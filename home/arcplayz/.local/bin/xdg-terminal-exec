@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+exec wezterm start --cwd "$PWD" "$@"

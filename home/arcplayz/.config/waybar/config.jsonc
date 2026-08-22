@@ -1,0 +1,51 @@
+[
+	{
+		"layer": "top",
+		"position": "top",
+		"modules-left": [
+			"pulseaudio",
+			"battery"
+		],
+		"modules-center": [
+			"tray"
+		],
+		"modules-right": [
+		    "clock"
+		],
+		"clock": {
+		    "format": "{:%H:%M:%S\n %a %d}",
+		    "interval": 1
+		},
+	    "pulseaudio": {
+	        "format": "{icon}{volume}% {format_source}",
+			"format-muted": "<span color='red'>{icon}{volume}%</span> {format_source}",
+	        "format-bluetooth": "\udb80\udcb0 {volume}% {format_source}",
+	        "format-bluetooth-muted": "<span color='red'>\udb80\udcb0 {volume}%</span> {format_source}",
+	        "format-source": "\udb80\udf6c ",
+	        "format-source-muted": "<span color='red'>\udb80\udf6e </span>",
+            "format-icons": {
+                "hdmi": "\uf26c ",
+                "default": ["\uf026 ", "\uf027 ", "\uefcf "],
+            }
+	    },
+	    "battery": {
+	        "format": "{icon}{capacity}%",
+			"format-icons": ["\udb80\udc8e ", "\udb80\udc7b ", "\udb80\udc7d ", "\udb80\udc7f ", "\udb80\udc81 ", "\udb80\udc79 "],
+	        "format-charging": "\udb80\udc84 {capacity}%",
+	        "format-full": "\udb80\udc79 "
+	    }
+	},
+	{
+		"layer": "top",
+		"position": "bottom",
+		"modules-center": [
+			"wlr/taskbar"
+		],
+		"wlr/taskbar": {
+			"on-click": "minimize-raise",
+			"on-click-right": "close",
+			"format": "{icon} {title:.45}",
+			"tooltip-format": "{app_id}\n{title}"
+		}
+	}
+]

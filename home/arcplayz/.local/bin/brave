@@ -1,0 +1,16 @@
+#!/usr/bin/env xonsh
+
+from sys import argv
+
+def args():
+	features = set(('PulseaudioLoopbackForScreenShare',))
+
+	for x in argv[1:]:
+		if x.startswith('--enable-features='):
+			features.update(x[18:].split(','))
+		else:
+			yield x
+
+	yield '--enable-features=' + ','.join(features)
+
+exec /usr/bin/brave @(args())

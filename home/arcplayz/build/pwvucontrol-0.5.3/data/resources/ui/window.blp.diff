@@ -1,0 +1,9 @@
+@@ -2,6 +2,8 @@ using Gtk 4.0;
+ using Adw 1;
+
+ template $PwvucontrolWindow: Adw.ApplicationWindow {
++  name: "pwvucontrol";
++
+   default-width: 600;
+   default-height: 300;
+   width-request: 470;
